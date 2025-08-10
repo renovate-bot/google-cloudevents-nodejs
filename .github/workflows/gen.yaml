@@ -38,7 +38,7 @@ jobs:
     - name: Setup Node for gen/postgen scripts
       uses: actions/setup-node@v3
       with:
-        node-version: 14
+        node-version: 22
     # Install the generator
     - name: Install the generator
       run: |
